@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Login System</title>
+
+   <link rel="stylesheet" href="/main.css">
+
+</head>
+<body>
+
+
+
+    <div class="container">
+
+<div class="logo">
+    <h1>Simple Login System</h1>
+</div>
+    <div id="loginForm" class="loginForm">
+        <h2>UserName</h2>
+        <input type="text" id="username" placeholder="Username">
+        <h2>password</h2>
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+    <div id="welcome" class="welcome">
+        <h2>Welcome, <span id="user"></span>!</h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+</div>
+
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
